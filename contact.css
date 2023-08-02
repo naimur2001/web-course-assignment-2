@@ -16,7 +16,7 @@
   }
 
 .contact-container {
-  max-width: 400px;
+  max-width: 350px;
   margin: 0 auto;
   padding: 20px;
   background-color: #fff;
@@ -62,5 +62,5 @@
 }
 
 .form-group button:hover {
-  background-color: #d55555;
+  background-color: #a04545;
 }

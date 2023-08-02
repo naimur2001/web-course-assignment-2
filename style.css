@@ -1,3 +1,7 @@
+body{
+  background: #f5ebeb;
+}
+
 .nav-bar{
   margin-top: 20px;
   margin-bottom: 70px;
@@ -41,7 +45,7 @@
 .hom-sec-3-1 {
 font-family: monospace;
   padding: 20px;
-  background: #b3b2b1;
+  background: #f6dbbf;
 }
 
 .footer-content {
