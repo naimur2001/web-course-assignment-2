@@ -1,0 +1,73 @@
+.office{
+  margin: 50px;
+  font-family: monospace;
+}
+.office-h h1{
+  text-align: center;
+  font-size: 35px;
+  color: crimson;
+  
+  }
+  
+  .office-h h2{
+    text-align: center;
+  font-size: 30px;
+
+  }
+
+  .office-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+  }
+  .extra-card{
+    margin-top: 30px;
+    margin-right: 50px;
+    display:flex ;
+    justify-content: center;
+  }
+
+  .location-card {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .location-image {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .location-image img {
+    width: 100%;
+    display: block;
+  }
+  
+  .location-details {
+    background-color: #f9f9f9;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .location-name {
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .map-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #24c16e;
+    font-weight: bold;
+
+  }
+  
+
+  

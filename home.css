@@ -1,0 +1,89 @@
+.hom-sec-1{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 100px;
+  margin: 50px;
+}
+
+.hom-sec-1-1 h1{
+  font-size: 30px;
+  font-family: monospace;
+}
+
+.span-1{
+  color: red;
+}
+.span-2{
+  color: orange;
+}
+.span-3{
+  color: rgb(231, 138, 152);
+}
+
+
+.hom-sec-p {
+  font-size: 15px;
+  font-family: monospace;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 0 3px 0 0;
+}
+
+.hom-sec-1-2 img{
+  width: 450px;
+  height: 400px;
+}
+.hom-sec-2{
+  text-align: center;
+  margin: 50px;
+
+}
+.hom-sec-2 h1{
+  display: inline-block;
+  font-family: monospace;
+  font-weight: 700;
+  font-size: 36px;
+  color: rgb(171, 171, 70);
+  text-align: center;
+  border-bottom: 2px solid black;
+}
+
+.hom-sec-2-1{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.hom-sec-2 .offer-card{
+  text-align: center;
+  font-family: monospace;
+  font-weight: 700;
+  color: crimson;
+  border: 2px solid tomato;
+  margin: 5px;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 6px 7px 5px rgba(168, 166, 166, 0.411);
+  transition: transform 1s ease-in-out ;
+}
+
+.hom-sec-2 .offer-card:hover {
+  transform: scale(1.1);
+
+}
+.offer-card .oc-h{
+color: black;
+}
+.oc-h{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.offer-card .oc-h3{
+  height: 22px;
+  width: 200px;
+  padding: 4px;
+  border-radius: 10px;
+  background-color: rgb(235, 27, 61);
+color: rgb(255, 255, 255);
+}
